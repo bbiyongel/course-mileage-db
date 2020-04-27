@@ -4,7 +4,7 @@
 
 ## 
 
-### 프로젝트
+### 프로젝트 소개
 
 #### :triangular_flag_on_post: 목표
 

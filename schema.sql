@@ -1,0 +1,42 @@
+CREATE TABLE syllabi (
+    hyhg             INT          NOT NULL,
+    course_code      VARCHAR(255) NOT NULL,
+    course_title     VARCHAR(255) NOT NULL,
+    credit           INT          NOT NULL,
+    instructor       VARCHAR(255) NOT NULL,
+    time             VARCHAR(255) NOT NULL,
+    room             VARCHAR(255) NOT NULL,
+    quota            INT          NOT NULL,
+    participants     VARCHAR(255) NOT NULL,
+    major_quota      INT          NOT NULL, 
+    second_major     VARCHAR(255) NOT NULL,
+    grade_1          INT          NOT NULL,
+    grade_2          INT          NOT NULL, 
+    grade_3          INT          NOT NULL, 
+    grade_4          INT          NOT NULL, 
+    exchange_student VARCHAR(255) NOT NULL, 
+    max_mileage      INT          NOT NULL, 
+    min_result       INT          NOT NULL, 
+    max_result       INT          NOT NULL, 
+    average          FLOAT        NOT NULL
+);
+
+CREATE TABLE mileages (
+    domain                VARCHAR(255) NOT NULL, 
+    hyhg                  INT          NOT NULL, 
+    hakno                 VARCHAR(255) NOT NULL, 
+    bb                    INT          NOT NULL, 
+    sbb                   INT          NOT NULL, 
+    rank                  INT          NOT NULL, 
+    mileages              INT          NOT NULL, 
+    major                 VARCHAR(255) NOT NULL,
+    double_major          VARCHAR(255) NOT NULL, 
+    enrolled_courses      INT          NOT NULL, 
+    graduation            VARCHAR(255) NOT NULL, 
+    first_enroll          VARCHAR(255) NOT NULL, 
+    credits_rate          FLOAT        NOT NULL, 
+    previous_credits_rate FLOAT        NOT NULL, 
+    grade                 INT          NOT NULL, 
+    enrolled              VARCHAR(255) NOT NULL, 
+    etc                   VARCHAR(255) NULL
+);

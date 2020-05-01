@@ -8,7 +8,8 @@
 
 #### :triangular_flag_on_post: 목표
 
-수강생들의 정보에 맞추어 희망하는 강의에 대한 마일리지에 따른 수강신청 성공 여부 예측 및 최적의 마일리지 추천 시스템 구축
+- 수강생들의 정보에 맞추어 희망하는 강의에 대한 마일리지에 따른 수강신청 성공 여부 예측 및 최적의 마일리지 추천 시스템 구축
+- 2019-2학기 YBIGTA Conference 투표 결과 1등 (2019-12-28)
 
 #### :bookmark_tabs: 내용
 
@@ -16,6 +17,16 @@
 - [Python Flask를 이용하여 DB와 연동된 웹 애플리케이션 구현](https://github.com/airotod/course-mileage-web)
 - [머신러닝 모델을 활용한 수강신청 성공 여부 예측 및 최적의 마일리지 추천 시스템 구축](https://github.com/airotod/course-mileage-web)
 
+#### :busts_in_silhouette: 참여자
+
+- 안주영, 이용하, 정현우, 최민태, 한승희
+
+## 
+
+### 개선점
+
+- 시계열 특성 고려
+- Well Designed & Interactive 웹 구현
 
 ## 
 
